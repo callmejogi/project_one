@@ -24,14 +24,9 @@
     font-display: swap;
 }
 
-.main{
-    font-family: 'Roboto', sans-serif;
+.link.main{
     font-weight: 500;
     color:#34547A;
-    text-decoration-line: none;
-    font: size 16px;
-    margin-right: 42px;
-    letter-spacing: 10%;
 }
 
 .link{
@@ -39,9 +34,8 @@
     font-weight: 400;
     color: #000000;
     text-decoration-line: none;
-    font: size 16px;
-    margin-right: 42px;
-    letter-spacing: 10%;
+    font-size: 16px;
+    letter-spacing: 0.1em;
 }
 
 .text{
@@ -49,9 +43,8 @@
     font-weight: 500;
     color: #000000;
     font-size:48px;
-    line-height: 78.75px;
-    margin-bottom: 60px;
-    width: 541px;
+    line-height: 79px;
+    margin-bottom: 37px;
 }
 
 .caption{
@@ -60,26 +53,27 @@
     color:#727272;
     font-size:16px;
     width: 540px;
-    margin-bottom: 60px;
-    text-align: center;
-    line-height: 26.25px;
+    margin-bottom: 55px;
+    line-height: 26px;
 }
 
 .btn{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color:#FFFFFF;
-    width:225px;
-    height:65px;
+    padding: 19px 41px 20px;
     background-color: #34547A;
     margin-bottom: 146px;
+    line-height:26px ;
+    border:none ;
+    letter-spacing: 0.1em;
 }
 
 .block{
     background-color: #EEEFF1;
-    margin-bottom: 119px;
     box-sizing: border-box;
-    padding:79px;
+    padding-bottom: 146px;
+    padding-top: 79px;
 }
 
 .box{
@@ -137,8 +131,7 @@
     color:#FFFFFF;
     font-size:16px;
     width: 71px;
-    line-height: 26.25px;
-    margin-bottom: 103px;
+    line-height: 26px;
 }
 
 .content{
@@ -152,13 +145,14 @@
     height:50px;
 }
 
-.menu{
-    margin-bottom: 162px;
+.nav{
+    margin-bottom: 140px;
 }
 
 .list{
     display: inline-block;
     vertical-align: top;
+    margin-right: 42px;
 }
 
 .container{
@@ -173,6 +167,7 @@
     display: inline-block;
     vertical-align: top;
     margin-left: 52.33px;
+    margin-bottom: 103px;
 }
 
 .page{
@@ -213,7 +208,7 @@
 .footer{
     background-color: #34547A;
     box-sizing: border-box;
-    padding: 75.5px;
+    padding: 47px 0 46px 0;
 }
 
 .user{

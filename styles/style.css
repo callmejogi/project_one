@@ -24,6 +24,16 @@
     font-display: swap;
 }
 
+.block{
+    background-color: #EEEFF1;
+    box-sizing: border-box;
+    padding-top: 75px;
+}
+
+.nav{
+    padding-bottom: 145px;
+}
+
 .link.main{
     font-weight: 500;
     color:#34547A;
@@ -36,6 +46,7 @@
     text-decoration-line: none;
     font-size: 16px;
     letter-spacing: 0.1em;
+    line-height:26px;
 }
 
 .text{
@@ -69,13 +80,6 @@
     letter-spacing: 0.1em;
 }
 
-.block{
-    background-color: #EEEFF1;
-    box-sizing: border-box;
-    padding-bottom: 146px;
-    padding-top: 79px;
-}
-
 .box{
     margin-left: auto;
     margin-right: auto;
@@ -87,9 +91,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size:32px;
-    line-height: 37.5px;
+    line-height: 38px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width:540px;
 }
 
@@ -97,6 +101,8 @@
     width:540px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 115px;
+    padding-bottom: 95px;
 }
 
 .copy{
@@ -105,14 +111,12 @@
     color:#727272;
     font-size:16px;
     width: 540px;
-    margin-bottom: 100px;
     text-align: center;
-    line-height: 26.25px;
+    line-height: 26px;
 }
 
 .body{
     background-color: #34547A;
-    margin-bottom: 100px;
 }
 
 .numbers{
@@ -120,9 +124,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size:21px;
-    line-height: 24.61px;
+    line-height: 25px;
     width:36px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 .projects{
@@ -145,10 +149,6 @@
     height:50px;
 }
 
-.nav{
-    margin-bottom: 140px;
-}
-
 .list{
     display: inline-block;
     vertical-align: top;
@@ -159,21 +159,22 @@
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    padding-top: 103px;
     text-align: center;
+    padding-top: 100px;
 }
 
 .card{
     display: inline-block;
     vertical-align: top;
-    margin-left: 52.33px;
-    margin-bottom: 103px;
+    margin-left: 52px;
+    margin-bottom: 100px;
 }
 
 .page{
     width:540px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 96px;
 }
 
 .desc{
@@ -181,9 +182,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size:32px;
-    line-height: 37.5px;
+    line-height: 38px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width:540px;
 }
 
@@ -193,16 +194,22 @@
     color:#727272;
     font-size:16px;
     text-align: center;
-    line-height: 26.25px;
-    margin-bottom: 57px;
+    line-height: 26px;
+    margin-bottom: 52px;
     width:540px;
 }
 
 .promo{
-    width:1110px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+    width:1110px;
+    height: 600px;
+}
+
+.video{
+    height: 600px;
+    width:1110px;
 }
 
 .footer{
@@ -215,8 +222,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size:21px;
-    line-height: 24.61px;
+    line-height: 25px;
     color:#FFFFFF;
+    margin-bottom: 12px;
 }
 
 .copyrights{
@@ -224,7 +232,7 @@
     font-weight: 400;
     color:#FFFFFF;
     font-size:13px;
-    line-height: 21.33px;
+    line-height: 21px;
     width:193px;
 }
 
